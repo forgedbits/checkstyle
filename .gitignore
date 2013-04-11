@@ -1,0 +1,32 @@
+# This file contains file names wildcards which should not be versioned by GIT scm
+
+*~
+*.~*
+*.swp
+*.iml
+atlassian-ide-plugin.xml
+
+.idea
+.idea/*
+.project
+.settings
+.metadata
+.classpath
+target
+bin
+*.ipr
+*.iws
+*.ids
+*.iml
+
+app/insgl-core/*.db
+*.lock.db
+*.trace.db
+*nb-configuration.xml
+app/insgl-core/catalog.xml
+app/insgl-core/nbactions.xml
+app/insgl-core/.gwt
+
+# Raporty TestNG w Eclipse dla insgl-core
+*.orig
+app/*/test-output
