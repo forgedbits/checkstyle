@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>org.forgedbits</groupId>
 	<artifactId>checkstyle</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>org.forgedbits.checkstyle</name>
-
-	<description>
-		Provides the common Checkstyle configuration used by any other forgedbits.org maven artifacts.
-	</description>
+	<url>https://github.com/forgedbits/checkstyle</url>
 	
 	<organization>
 		<name>forgedbits.org</name>
 		<url>http://forgedbits.org</url>
 	</organization>
+	
+	<developers>
+		<developer>
+			<name>Piotr Bojko</name>
+			<email>ptr.bojko@gmail.com</email>
+			<url>http://about.me/ptr.bojko</url>
+		</developer>
+	</developers>
+	
+	<description>
+		Provides the common Checkstyle configuration used by any other forgedbits.org maven artifacts.
+	</description>
 	
 	<licenses>
 		<license>
@@ -23,5 +33,11 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	
+	<scm>
+		<connection>https://github.com/forgedbits/checkstyle.git</connection>
+		<developerConnection>https://github.com/forgedbits/checkstyle.git</developerConnection>
+		<url>https://github.com/forgedbits/checkstyle.git</url>
+	</scm>
 
 </project>
